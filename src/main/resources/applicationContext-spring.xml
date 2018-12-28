@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:context="http://www.springframework.org/schema/context">
+
+	 <bean id="orderServiceImpl" class="cn.yzj.Spring.service.impl.OrderServiceImpl"/>
+     <context:component-scan base-package="cn.yzj.Spring.service"/>
+</beans>
